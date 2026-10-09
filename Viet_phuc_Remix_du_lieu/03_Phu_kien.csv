@@ -1,0 +1,24 @@
+﻿ID,Tên,Nhóm,Giới tính,Mức phong cách tối thiểu,Áp dụng cho,Chỉ ở bối cảnh,Vị trí trên hình,Mã nguồn,Trạng thái,Ghi chú
+khan_van,Khăn vấn,Truyền thống,Nữ,Truyền thống,"Áo ngũ thân, Áo tấc (biến thể tay rộng), Áo dài hiện đại, Áo nhật bình",,dau,,Giải thích phổ biến,
+khan_dong,Khăn đóng,Truyền thống,Nam,Truyền thống,"Áo ngũ thân, Áo tấc (biến thể tay rộng)",,dau,S17,Đã có nguồn,
+khan_xep,Khăn xếp,Truyền thống,Nam,Truyền thống,Áo ngũ thân,,dau,S19,Đã có nguồn,Gắn với liền anh quan họ
+o_lien_anh,Ô (liền anh),Truyền thống,Nam,Truyền thống,Áo ngũ thân,"Lễ hội làng, quan họ Bắc Bộ",tay,S19,Đã có nguồn,Chỉ gợi ý ở bối cảnh quan họ
+non_la,Nón lá,Truyền thống,Cả hai,Truyền thống,"Áo dài hiện đại, Áo bà ba, Áo ngũ thân",,dau,S18,Đã có nguồn,
+non_quai_thao,Nón quai thao,Truyền thống,Nữ,Truyền thống,"Áo tứ thân, Áo mớ ba mớ bảy (quan họ)",,dau,"S11, S19",Đã có nguồn,
+khan_mo_qua,Khăn mỏ quạ,Truyền thống,Nữ,Truyền thống,"Áo tứ thân, Áo mớ ba mớ bảy (quan họ)",,dau,"S11, S19",Đã có nguồn,
+that_lung_lua,Thắt lưng lụa,Truyền thống,Nữ,Truyền thống,"Áo tứ thân, Áo mớ ba mớ bảy (quan họ)",,eo,S11,Đã có nguồn,
+khan_ran,Khăn rằn,Truyền thống,Cả hai,Truyền thống,Áo bà ba,,co,"S18, S11",Đã có nguồn,
+guoc,Guốc,Truyền thống,Cả hai,Truyền thống,"Áo dài hiện đại, Áo ngũ thân",,chan,S17,Đã có nguồn,Nguồn S17 nói về áo dài nam
+trang_suc_cai_dau,Trang sức cài đầu,Truyền thống,Nữ,Truyền thống,Áo nhật bình,,dau,,Cần kiểm chứng,Lấy theo bộ phục dựng có nguồn
+ao_khoac_len,Áo khoác len mỏng,Remix,Cả hai,Cách tân nhẹ,Mọi trang phục cho phép mức này,,khoac,,Gợi ý thẩm mỹ,Dùng cho gợi ý theo thời tiết lạnh (bổ sung 2)
+giay_loafer,Giày loafer,Remix,Cả hai,Cách tân nhẹ,Mọi trang phục cho phép mức này,,chan,,Gợi ý thẩm mỹ,
+tui_deo_cheo,Túi đeo chéo mini,Remix,Cả hai,Cách tân nhẹ,Mọi trang phục cho phép mức này,,tay,,Gợi ý thẩm mỹ,
+sneaker_trang,Sneaker trắng,Remix,Cả hai,Remix Gen Z,Mọi trang phục cho phép mức này,,chan,,Gợi ý thẩm mỹ,
+boots_co_thap,Boots cổ thấp,Remix,Cả hai,Remix Gen Z,Mọi trang phục cho phép mức này,,chan,,Gợi ý thẩm mỹ,
+tui_tote,Túi tote,Remix,Cả hai,Remix Gen Z,Mọi trang phục cho phép mức này,,tay,,Gợi ý thẩm mỹ,
+kinh_ram,Kính râm,Remix,Cả hai,Remix Gen Z,Mọi trang phục cho phép mức này,,mat,,Gợi ý thẩm mỹ,
+blazer_mong,Blazer mỏng,Remix,Cả hai,Remix Gen Z,Mọi trang phục cho phép mức này,,khoac,,Gợi ý thẩm mỹ,Tính là món remix lớn vì che dáng áo
+quan_jeans,Quần jeans ống rộng (thay quần),Remix,Cả hai,Remix Gen Z,"Áo dài hiện đại, Áo ngũ thân, Áo bà ba",,quan,,Gợi ý thẩm mỹ,Thay thành phần cố định là quần
+yem_remix,Yếm mặc như áo (yếm remix),Biến thể remix,,Remix Gen Z,Áo tứ thân,,,,Quy tắc thiết kế của app,"Kích hoạt W1 ở đình, chùa, lễ hội làng Cảnh báo: W1."
+tay_lo,Tay lỡ,Biến thể remix,,Cách tân nhẹ,Áo dài hiện đại,,,,Quy tắc thiết kế của app,
+ta_ngan,Tà ngắn qua gối,Biến thể remix,,Remix Gen Z,Áo dài hiện đại,,,,Quy tắc thiết kế của app,

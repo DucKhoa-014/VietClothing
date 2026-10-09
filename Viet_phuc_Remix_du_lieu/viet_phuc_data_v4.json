@@ -1,0 +1,1684 @@
+{
+  "meta": {
+    "ten": "Việt phục Remix – dữ liệu demo",
+    "phien_ban": "4",
+    "ngay_cap_nhat": "2026-10-09",
+    "ghi_chu": "Bản 4 thêm phụ kiện dạng chip, bảng màu, giới hạn phong cách theo trang phục, quy tắc hài hòa màu và cấu hình gọi Gemini. Nội dung văn hóa giữ nguyên bản 3.",
+    "nhan_trang_thai": [
+      "Đã có nguồn",
+      "Có tranh luận học thuật",
+      "Giải thích phổ biến",
+      "Cần kiểm chứng",
+      "Không tìm thấy nguồn",
+      "Đã có nguồn một phần",
+      "Gợi ý thẩm mỹ",
+      "Quy tắc thiết kế của app"
+    ]
+  },
+  "muc_phong_cach": [
+    {
+      "id": "truyen_thong",
+      "thu_tu": 0,
+      "ten": "Truyền thống",
+      "mo_ta": "Mặc đúng bộ, giữ màu sắc và phụ kiện truyền thống"
+    },
+    {
+      "id": "cach_tan_nhe",
+      "thu_tu": 1,
+      "ten": "Cách tân nhẹ",
+      "mo_ta": "Giữ dáng áo và đặc trưng nhận diện, thay đổi chất liệu, màu hoặc chi tiết nhỏ"
+    },
+    {
+      "id": "remix_gen_z",
+      "thu_tu": 2,
+      "ten": "Remix Gen Z",
+      "mo_ta": "Phối với đồ hiện đại (jeans, sneaker, túi tote…), vẫn giữ ít nhất một đặc trưng nhận diện"
+    }
+  ],
+  "trang_phuc": [
+    {
+      "id": "ao_ngu_than",
+      "thuoc": null,
+      "ten": "Áo ngũ thân",
+      "gioi_tinh": "Nam, nữ",
+      "mo_ta": "Võ vương Nguyễn Phúc Khoát được xem là người cải cách trang phục Đàng Trong từ năm 1744 và khai sinh áo ngũ thân; vua Minh Mạng phổ biến và nâng tầm thành quốc phục. Kết cấu 5 thân: hai thân trước, hai thân sau, một thân con. Cổ đứng, 5 khuy, xẻ tà hai bên từ eo; áo nữ dài quá bắp chân hoặc tới mắt cá, áo nam dài qua gối 5–10 cm. Thời Nguyễn, áo lập lĩnh ngũ thân tay chẽn phổ biến nhất vì cả quý tộc lẫn thường dân đều mặc được.",
+      "nguon": [
+        "S1",
+        "S23",
+        "S3"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Đã gộp \"áo dài khăn đóng\" vào đây",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "remix_gen_z",
+      "thanh_phan_co_dinh": [
+        "Quần ống rộng"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Cổ đứng",
+          "nguon": [
+            "S23"
+          ]
+        },
+        {
+          "ten": "Năm thân, có thân con",
+          "nguon": [
+            "S23"
+          ]
+        },
+        {
+          "ten": "Xẻ tà hai bên từ eo",
+          "nguon": [
+            "S23"
+          ]
+        },
+        {
+          "ten": "Năm khuy",
+          "nguon": [
+            "S23"
+          ]
+        }
+      ],
+      "phu_kien_truyen_thong": [
+        "khan_van",
+        "khan_dong",
+        "khan_xep",
+        "o_lien_anh",
+        "non_la",
+        "guoc"
+      ],
+      "bien_the_remix": []
+    },
+    {
+      "id": "ao_tac",
+      "thuoc": "ao_ngu_than",
+      "ten": "Áo tấc (biến thể tay rộng)",
+      "gioi_tinh": "Nam, nữ",
+      "mo_ta": "Áo ngũ thân tay rộng dùng trong các buổi lễ, còn gọi là áo lễ. Thời Nguyễn, cả nam lẫn nữ mặc áo tấc trong các dịp trang trọng.",
+      "nguon": [
+        "S23",
+        "S9"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Chuyển thành biến thể của áo ngũ thân. Gợi ý chính cho người dùng nam ở bối cảnh lễ",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "cach_tan_nhe",
+      "thanh_phan_co_dinh": [
+        "Quần ống rộng"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Tay áo rộng",
+          "nguon": [
+            "S23"
+          ]
+        },
+        {
+          "ten": "Dáng ngũ thân",
+          "nguon": [
+            "S23"
+          ]
+        }
+      ],
+      "phu_kien_truyen_thong": [
+        "khan_van",
+        "khan_dong"
+      ],
+      "bien_the_remix": []
+    },
+    {
+      "id": "ngu_than_y_nghia",
+      "thuoc": "ao_ngu_than",
+      "ten": "Ý nghĩa 5 thân",
+      "gioi_tinh": "",
+      "mo_ta": "Bốn thân tượng trưng cho tứ thân phụ mẫu, thân con nhỏ nằm trong tượng trưng cho người mặc.",
+      "nguon": [
+        "S4"
+      ],
+      "trang_thai_kiem_chung": "Giải thích phổ biến",
+      "hien_thi": true,
+      "ghi_chu": "Trong app ghi rõ là \"cách giải thích phổ biến\"",
+      "co_the_chon": false
+    },
+    {
+      "id": "ngu_than_tranh_luan",
+      "thuoc": "ao_ngu_than",
+      "ten": "Tranh luận về nguồn gốc",
+      "gioi_tinh": "",
+      "mo_ta": "Theo Phủ biên tạp lục (Lê Quý Đôn), năm 1744 Nguyễn Phúc Khoát lấy thể chế áo mũ trong Tam tài đồ hội làm kiểu mới và ra lệnh cho trai gái Thuận, Quảng đổi cách ăn mặc. Nhà nghiên cứu Trịnh Bách cho rằng việc coi chúa là người tạo ra áo năm thân chỉ là suy luận từ đoạn này, và lập luận áo năm thân đã hình thành sớm hơn.",
+      "nguon": [
+        "S22"
+      ],
+      "trang_thai_kiem_chung": "Có tranh luận học thuật",
+      "hien_thi": true,
+      "ghi_chu": "Trong app nên viết \"thường được cho là\" thay vì khẳng định tuyệt đối",
+      "co_the_chon": false
+    },
+    {
+      "id": "ao_dai_hien_dai",
+      "thuoc": null,
+      "ten": "Áo dài hiện đại",
+      "gioi_tinh": "Nữ (có bản nam)",
+      "mo_ta": "Thập niên 1930 nổi lên áo dài Le Mur (họa sĩ Cát Tường) và áo dài Lê Phổ, mở đầu trào lưu cách tân. Mẫu Lemur được công bố trên báo Phong Hóa năm 1934. Cát Tường rút áo tứ thân, ngũ thân lại chỉ còn hai vạt trước và sau.",
+      "nguon": [
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "remix_gen_z",
+      "thanh_phan_co_dinh": [
+        "Quần dài"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Hai vạt trước và sau",
+          "nguon": [
+            "S7"
+          ]
+        },
+        {
+          "ten": "Tay raglan",
+          "nguon": [
+            "S28"
+          ]
+        },
+        {
+          "ten": "Xẻ tà cao",
+          "nguon": []
+        }
+      ],
+      "phu_kien_truyen_thong": [
+        "khan_van",
+        "non_la",
+        "guoc"
+      ],
+      "bien_the_remix": [
+        "tay_lo",
+        "ta_ngan"
+      ]
+    },
+    {
+      "id": "ao_dai_raglan",
+      "thuoc": "ao_dai_hien_dai",
+      "ten": "Tay raglan",
+      "gioi_tinh": "",
+      "mo_ta": "Kiểu tay do một thợ may tên Dũng ở Đa Kao (Sài Gòn) đưa ra. Đường ráp tay và thân ở nách, vai giúp áo hết nhăn. Một nghiên cứu năm 2015 mô tả tay áo dài là tay raglan liền một mảnh, cho thấy đây là kiểu tay chuẩn hiện nay.",
+      "nguon": [
+        "S26",
+        "S27",
+        "S28"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Mốc thời gian chưa thống nhất: VietNamNet ghi đầu thập niên 1960, Saigoneer chỉ nói \"vài năm sau\" Cát Tường. Trong app ghi \"khoảng thập niên 1960\"",
+      "co_the_chon": false
+    },
+    {
+      "id": "ao_tu_than",
+      "thuoc": null,
+      "ten": "Áo tứ thân",
+      "gioi_tinh": "Nữ",
+      "mo_ta": "Trang phục của phụ nữ nông thôn Bắc Bộ, mặc với váy và yếm; không có khuy cài, mở dọc ở giữa hai vạt trước. Hai vạt trước buộc lại bằng thắt lưng lụa màu (theo Bảo tàng Phụ nữ Việt Nam).",
+      "nguon": [
+        "S22",
+        "S11"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Đã thay nguồn Wikipedia bằng S22",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "remix_gen_z",
+      "thanh_phan_co_dinh": [
+        "Yếm",
+        "Váy"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Hai vạt trước buộc lại, không khuy",
+          "nguon": [
+            "S22",
+            "S11"
+          ]
+        },
+        {
+          "ten": "Mặc với yếm và váy",
+          "nguon": [
+            "S22"
+          ]
+        }
+      ],
+      "phu_kien_truyen_thong": [
+        "non_quai_thao",
+        "khan_mo_qua",
+        "that_lung_lua"
+      ],
+      "bien_the_remix": [
+        "yem_remix"
+      ]
+    },
+    {
+      "id": "yem",
+      "thuoc": "ao_tu_than",
+      "ten": "Yếm",
+      "gioi_tinh": "Nữ",
+      "mo_ta": "Trong trang phục cô gái quan họ, yếm là áo lót mặc bên trong áo cánh hoặc áo tứ thân.",
+      "nguon": [
+        "S12"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Cơ sở cho quy tắc cảnh báo W1",
+      "co_the_chon": false
+    },
+    {
+      "id": "ao_mo_ba_mo_bay",
+      "thuoc": "ao_tu_than",
+      "ten": "Áo mớ ba mớ bảy (quan họ)",
+      "gioi_tinh": "Nữ",
+      "mo_ta": "Trang phục liền chị quan họ: mặc ba (mớ ba) hoặc bảy (mớ bảy) lớp áo dài năm thân lồng nhau, bên trong là yếm.",
+      "nguon": [
+        "S20",
+        "S19"
+      ],
+      "trang_thai_kiem_chung": "Cần kiểm chứng",
+      "hien_thi": true,
+      "ghi_chu": "Mới thêm. Nguồn hiện là phổ thông, nên tìm thêm nguồn từ Nhà hát Dân ca Quan họ Bắc Ninh",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "truyen_thong",
+      "thanh_phan_co_dinh": [
+        "Yếm",
+        "Váy"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Nhiều lớp áo năm thân lồng nhau",
+          "nguon": [
+            "S20"
+          ]
+        }
+      ],
+      "phu_kien_truyen_thong": [
+        "non_quai_thao",
+        "khan_mo_qua",
+        "that_lung_lua"
+      ],
+      "bien_the_remix": []
+    },
+    {
+      "id": "ao_nhat_binh",
+      "thuoc": null,
+      "ten": "Áo nhật bình",
+      "gioi_tinh": "Nữ",
+      "mo_ta": "Thuộc hệ thống trang phục cung đình của hậu phi triều Nguyễn: thường triều cho hoàng thái hậu, hoàng hậu, công chúa; triều phục cho cung tần bậc cao. Mỗi phẩm vị có tiêu chí riêng về chất liệu, màu sắc, cách may, họa tiết.",
+      "nguon": [
+        "S13",
+        "S9"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Không viết tuyệt đối \"màu vàng / rồng 5 móng chỉ dành cho vua\" khi chưa có nguồn cụ thể",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "cach_tan_nhe",
+      "thanh_phan_co_dinh": [
+        "Váy hoặc quần theo bộ phục dựng"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Cổ áo và họa tiết theo phẩm vị",
+          "nguon": [
+            "S13"
+          ]
+        }
+      ],
+      "phu_kien_truyen_thong": [
+        "khan_van",
+        "trang_suc_cai_dau"
+      ],
+      "bien_the_remix": []
+    },
+    {
+      "id": "ao_giao_linh",
+      "thuoc": null,
+      "ten": "Áo giao lĩnh",
+      "gioi_tinh": "Nam, nữ",
+      "mo_ta": "Áo cổ chéo, có trong trang phục cả nam và nữ thời Lê sơ; được điều chỉnh với nhiều chi tiết bản địa. Các nhóm phục dựng giới thiệu áo giao lĩnh từ cung đình đến dân gian thời Lê Trung Hưng. Về sau dần mai một vì bị xem là quá giống trang phục Trung Hoa.",
+      "nguon": [
+        "S25",
+        "S16"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Đã bỏ nguồn Wikipedia. Chi tiết \"triều đình chúa Trịnh mặc giao lĩnh với váy dài\" chỉ có S15 nên chưa đưa vào app. Dễ nhầm với Hán phục/Hanbok: cần hình mẫu có nguồn",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "cach_tan_nhe",
+      "thanh_phan_co_dinh": [
+        "Theo bộ phục dựng"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Cổ chéo",
+          "nguon": [
+            "S25"
+          ]
+        }
+      ],
+      "phu_kien_truyen_thong": [],
+      "bien_the_remix": []
+    },
+    {
+      "id": "ao_ba_ba",
+      "thuoc": null,
+      "ten": "Áo bà ba",
+      "gioi_tinh": "Nam, nữ",
+      "mo_ta": "Trang phục lao động của người Việt Tây Nam Bộ, cả nam và nữ đều mặc. Bản lao động thường màu đen hoặc nâu, nhuộm tự nhiên (lá bàng, vỏ trâm bầu, trái mặc nưa), may bằng vải nhanh khô như vải gai, vải ú, vải sơn đầm; lụa tơ tằm dùng cho áo mặc đi chơi. Bản hiện đại dùng màu tươi sáng hoặc pastel, chất liệu cotton, voan, ren, gấm.",
+      "nguon": [
+        "S24",
+        "S11",
+        "S17",
+        "S30"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "hien_thi": true,
+      "ghi_chu": "Đã bổ sung nguồn học thuật S24",
+      "co_the_chon": true,
+      "muc_phong_cach_toi_da": "remix_gen_z",
+      "thanh_phan_co_dinh": [
+        "Quần lụa hoặc satin đen/trắng"
+      ],
+      "dac_trung_nhan_dien": [
+        {
+          "ten": "Áo ngắn, xẻ hai bên hông",
+          "nguon": [
+            "S30"
+          ]
+        },
+        {
+          "ten": "Dáng thoải mái để lao động",
+          "nguon": [
+            "S24"
+          ]
+        }
+      ],
+      "phu_kien_truyen_thong": [
+        "non_la",
+        "khan_ran"
+      ],
+      "bien_the_remix": []
+    },
+    {
+      "id": "lanh_my_a",
+      "thuoc": "ao_ba_ba",
+      "ten": "Quần lãnh Mỹ A",
+      "gioi_tinh": "",
+      "mo_ta": "Lãnh Mỹ A là lụa tơ tằm màu đen huyền của làng lụa Tân Châu (An Giang), nhuộm bằng trái mặc nưa. Chưa tìm thấy nguồn xác nhận đây là kết hợp truyền thống với áo bà ba.",
+      "nguon": [
+        "S29"
+      ],
+      "trang_thai_kiem_chung": "Không tìm thấy nguồn",
+      "hien_thi": false,
+      "ghi_chu": "Không hiển thị như quy tắc truyền thống. Có thể dùng làm \"gợi ý chất liệu địa phương\"",
+      "co_the_chon": false
+    }
+  ],
+  "phu_kien": [
+    {
+      "id": "khan_van",
+      "ten": "Khăn vấn",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nu",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_ngu_than",
+        "ao_tac",
+        "ao_dai_hien_dai",
+        "ao_nhat_binh"
+      ],
+      "vi_tri_mockup": "dau",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Giải thích phổ biến",
+      "ghi_chu": ""
+    },
+    {
+      "id": "khan_dong",
+      "ten": "Khăn đóng",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nam",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_ngu_than",
+        "ao_tac"
+      ],
+      "vi_tri_mockup": "dau",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S17"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": ""
+    },
+    {
+      "id": "khan_xep",
+      "ten": "Khăn xếp",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nam",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_ngu_than"
+      ],
+      "vi_tri_mockup": "dau",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S19"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": "Gắn với liền anh quan họ"
+    },
+    {
+      "id": "o_lien_anh",
+      "ten": "Ô (liền anh)",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nam",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_ngu_than"
+      ],
+      "vi_tri_mockup": "tay",
+      "chi_o_boi_canh": [
+        "quan_ho"
+      ],
+      "nguon": [
+        "S19"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": "Chỉ gợi ý ở bối cảnh quan họ"
+    },
+    {
+      "id": "non_la",
+      "ten": "Nón lá",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_dai_hien_dai",
+        "ao_ba_ba",
+        "ao_ngu_than"
+      ],
+      "vi_tri_mockup": "dau",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S18"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": ""
+    },
+    {
+      "id": "non_quai_thao",
+      "ten": "Nón quai thao",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nu",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_tu_than",
+        "ao_mo_ba_mo_bay"
+      ],
+      "vi_tri_mockup": "dau",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S11",
+        "S19"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": ""
+    },
+    {
+      "id": "khan_mo_qua",
+      "ten": "Khăn mỏ quạ",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nu",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_tu_than",
+        "ao_mo_ba_mo_bay"
+      ],
+      "vi_tri_mockup": "dau",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S11",
+        "S19"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": ""
+    },
+    {
+      "id": "that_lung_lua",
+      "ten": "Thắt lưng lụa",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nu",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_tu_than",
+        "ao_mo_ba_mo_bay"
+      ],
+      "vi_tri_mockup": "eo",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S11"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": ""
+    },
+    {
+      "id": "khan_ran",
+      "ten": "Khăn rằn",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_ba_ba"
+      ],
+      "vi_tri_mockup": "co",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S18",
+        "S11"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": ""
+    },
+    {
+      "id": "guoc",
+      "ten": "Guốc",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than"
+      ],
+      "vi_tri_mockup": "chan",
+      "chi_o_boi_canh": null,
+      "nguon": [
+        "S17"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn",
+      "ghi_chu": "Nguồn S17 nói về áo dài nam"
+    },
+    {
+      "id": "trang_suc_cai_dau",
+      "ten": "Trang sức cài đầu",
+      "nhom": "truyen_thong",
+      "gioi_tinh": "nu",
+      "muc_toi_thieu": "truyen_thong",
+      "ap_dung_cho": [
+        "ao_nhat_binh"
+      ],
+      "vi_tri_mockup": "dau",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Cần kiểm chứng",
+      "ghi_chu": "Lấy theo bộ phục dựng có nguồn"
+    },
+    {
+      "id": "ao_khoac_len",
+      "ten": "Áo khoác len mỏng",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "cach_tan_nhe",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "khoac",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": "Dùng cho gợi ý theo thời tiết lạnh (bổ sung 2)"
+    },
+    {
+      "id": "giay_loafer",
+      "ten": "Giày loafer",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "cach_tan_nhe",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "chan",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": ""
+    },
+    {
+      "id": "tui_deo_cheo",
+      "ten": "Túi đeo chéo mini",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "cach_tan_nhe",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "tay",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": ""
+    },
+    {
+      "id": "sneaker_trang",
+      "ten": "Sneaker trắng",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "remix_gen_z",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "chan",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": ""
+    },
+    {
+      "id": "boots_co_thap",
+      "ten": "Boots cổ thấp",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "remix_gen_z",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "chan",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": ""
+    },
+    {
+      "id": "tui_tote",
+      "ten": "Túi tote",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "remix_gen_z",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "tay",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": ""
+    },
+    {
+      "id": "kinh_ram",
+      "ten": "Kính râm",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "remix_gen_z",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "mat",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": ""
+    },
+    {
+      "id": "blazer_mong",
+      "ten": "Blazer mỏng",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "remix_gen_z",
+      "ap_dung_cho": "tat_ca_trang_phuc_cho_phep",
+      "vi_tri_mockup": "khoac",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": "Tính là món remix lớn vì che dáng áo"
+    },
+    {
+      "id": "quan_jeans",
+      "ten": "Quần jeans ống rộng (thay quần)",
+      "nhom": "remix",
+      "gioi_tinh": "ca_hai",
+      "muc_toi_thieu": "remix_gen_z",
+      "ap_dung_cho": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than",
+        "ao_ba_ba"
+      ],
+      "vi_tri_mockup": "quan",
+      "chi_o_boi_canh": null,
+      "nguon": [],
+      "trang_thai_kiem_chung": "Gợi ý thẩm mỹ",
+      "ghi_chu": "Thay thành phần cố định là quần"
+    }
+  ],
+  "bien_the_remix": [
+    {
+      "id": "yem_remix",
+      "trang_phuc": "ao_tu_than",
+      "ten": "Yếm mặc như áo (yếm remix)",
+      "muc_toi_thieu": "remix_gen_z",
+      "canh_bao": [
+        "W1"
+      ],
+      "ghi_chu": "Kích hoạt W1 ở đình, chùa, lễ hội làng"
+    },
+    {
+      "id": "tay_lo",
+      "trang_phuc": "ao_dai_hien_dai",
+      "ten": "Tay lỡ",
+      "muc_toi_thieu": "cach_tan_nhe",
+      "canh_bao": [],
+      "ghi_chu": ""
+    },
+    {
+      "id": "ta_ngan",
+      "trang_phuc": "ao_dai_hien_dai",
+      "ten": "Tà ngắn qua gối",
+      "muc_toi_thieu": "remix_gen_z",
+      "canh_bao": [],
+      "ghi_chu": ""
+    }
+  ],
+  "mau_sac": [
+    {
+      "id": "do_son",
+      "ten": "Đỏ son",
+      "hex": "#B8322A",
+      "nhom": null
+    },
+    {
+      "id": "vang_nghe",
+      "ten": "Vàng nghệ",
+      "hex": "#E0A526",
+      "nhom": null
+    },
+    {
+      "id": "hong_dao",
+      "ten": "Hồng đào",
+      "hex": "#E79CA4",
+      "nhom": null
+    },
+    {
+      "id": "xanh_ngoc",
+      "ten": "Xanh ngọc",
+      "hex": "#2E8A7C",
+      "nhom": null
+    },
+    {
+      "id": "kem",
+      "ten": "Kem",
+      "hex": "#F2E6CF",
+      "nhom": null
+    },
+    {
+      "id": "trang_nga",
+      "ten": "Trắng ngà",
+      "hex": "#F6F1E7",
+      "nhom": "trang"
+    },
+    {
+      "id": "trang",
+      "ten": "Trắng",
+      "hex": "#FFFFFF",
+      "nhom": "trang"
+    },
+    {
+      "id": "den",
+      "ten": "Đen",
+      "hex": "#262626",
+      "nhom": "den"
+    },
+    {
+      "id": "xanh_pastel",
+      "ten": "Xanh da trời pastel",
+      "hex": "#A8C5E6",
+      "nhom": null
+    },
+    {
+      "id": "hong_phan",
+      "ten": "Hồng phấn",
+      "hex": "#F3C6CF",
+      "nhom": null
+    },
+    {
+      "id": "be",
+      "ten": "Be",
+      "hex": "#D8C2A3",
+      "nhom": null
+    },
+    {
+      "id": "nau_non",
+      "ten": "Nâu non",
+      "hex": "#8A5D3B",
+      "nhom": null
+    },
+    {
+      "id": "do_tham",
+      "ten": "Đỏ thắm",
+      "hex": "#A8243A",
+      "nhom": null
+    },
+    {
+      "id": "xanh_ho_thuy",
+      "ten": "Xanh hồ thủy",
+      "hex": "#4B7D8D",
+      "nhom": null
+    },
+    {
+      "id": "tim_hue",
+      "ten": "Tím Huế",
+      "hex": "#5E3F73",
+      "nhom": null
+    },
+    {
+      "id": "xanh_lam",
+      "ten": "Xanh lam",
+      "hex": "#2F5C8A",
+      "nhom": null
+    },
+    {
+      "id": "hong_sen",
+      "ten": "Hồng sen",
+      "hex": "#D7899C",
+      "nhom": null
+    },
+    {
+      "id": "nau",
+      "ten": "Nâu",
+      "hex": "#6A4A34",
+      "nhom": null
+    },
+    {
+      "id": "xanh_la_ma",
+      "ten": "Xanh lá mạ",
+      "hex": "#8BBE68",
+      "nhom": null
+    },
+    {
+      "id": "vang_chanh",
+      "ten": "Vàng chanh",
+      "hex": "#F1D36A",
+      "nhom": null
+    },
+    {
+      "id": "xanh_reu",
+      "ten": "Xanh rêu",
+      "hex": "#5E6E50",
+      "nhom": null
+    },
+    {
+      "id": "xanh_navy",
+      "ten": "Xanh navy",
+      "hex": "#23395B",
+      "nhom": null
+    },
+    {
+      "id": "denim",
+      "ten": "Xanh denim",
+      "hex": "#4A6A8F",
+      "nhom": null
+    }
+  ],
+  "cho_phep_mau_tu_do": true,
+  "boi_canh": [
+    {
+      "id": "tet",
+      "ten": "Tết Nguyên Đán",
+      "thoi_diem": "Tháng 1–2 dương lịch",
+      "trang_phuc_nu": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than",
+        "ao_tac"
+      ],
+      "nhu_cau": [
+        "Đẹp khi chụp ảnh",
+        "màu may mắn (đỏ, vàng, hồng)",
+        "đủ ấm khi trời lạnh ở miền Bắc",
+        "đồng bộ gia đình hoặc nhóm bạn"
+      ],
+      "luu_y_van_hoa": "Tránh trang phục toàn trắng hoặc toàn đen khi đi chúc Tết. Đi chùa đầu năm cần kín đáo.",
+      "muc_phong_cach_toi_da": "cach_tan_nhe",
+      "canh_bao": [
+        "W3",
+        "W2"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "do_son",
+          "vang_nghe",
+          "hong_dao",
+          "xanh_ngoc",
+          "kem"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": "Màu may mắn theo cách hiểu phổ biến"
+      }
+    },
+    {
+      "id": "tot_nghiep",
+      "ten": "Lễ tốt nghiệp, chụp kỷ yếu",
+      "thoi_diem": "Mùa hè hoặc theo lịch trường",
+      "trang_phuc_nu": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than"
+      ],
+      "nhu_cau": [
+        "Đồng bộ cả lớp nhưng vẫn có cá tính",
+        "mặc được bên trong lễ phục tốt nghiệp",
+        "thoải mái cả ngày"
+      ],
+      "luu_y_van_hoa": "Nếu cách tân (tay lỡ, phối sneaker) thì giữ dáng áo và tà áo đặc trưng.",
+      "muc_phong_cach_toi_da": "remix_gen_z",
+      "canh_bao": [
+        "W7"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "trang_nga",
+          "xanh_pastel",
+          "hong_phan",
+          "be"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": ""
+      }
+    },
+    {
+      "id": "quan_ho",
+      "ten": "Lễ hội làng, quan họ Bắc Bộ",
+      "thoi_diem": "Mùa xuân, tháng Giêng âm lịch (ví dụ Hội Lim)",
+      "trang_phuc_nu": [
+        "ao_tu_than",
+        "ao_mo_ba_mo_bay"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than"
+      ],
+      "nhu_cau": [
+        "Biết mặc đúng bộ (yếm, váy, thắt lưng, khăn mỏ quạ, nón quai thao)",
+        "thuê đồ ở đâu",
+        "cách thắt khăn. Nam: liền anh mặc áo cánh bên trong, áo dài năm thân bên ngoài, đội khăn xếp, cầm ô"
+      ],
+      "luu_y_van_hoa": "Mặc đầy đủ và trang nhã ở không gian lễ hội, đình làng. Không dùng yếm biến tấu thay áo ở bối cảnh này.",
+      "muc_phong_cach_toi_da": "truyen_thong",
+      "canh_bao": [
+        "W1",
+        "W2"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "nau_non",
+          "do_tham",
+          "xanh_ho_thuy",
+          "den"
+        ],
+        "nguon": [
+          "S12"
+        ],
+        "trang_thai": "Đã có nguồn một phần",
+        "ghi_chu": "Yếm đỏ thắm có nguồn S12; các màu còn lại là gợi ý"
+      }
+    },
+    {
+      "id": "hue",
+      "ten": "Huế, Đại Nội, Festival Huế",
+      "thoi_diem": "Quanh năm; Festival Huế",
+      "trang_phuc_nu": [
+        "ao_nhat_binh",
+        "ao_ngu_than",
+        "ao_dai_hien_dai"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than",
+        "ao_tac"
+      ],
+      "nhu_cau": [
+        "Chụp ảnh cổ phong",
+        "thuê trang phục",
+        "hiểu ý nghĩa trang phục cung đình"
+      ],
+      "luu_y_van_hoa": "Giải thích rõ nhật bình là trang phục cung đình. Màu sắc và họa tiết được quy định theo phẩm vị, tránh gán sai ý nghĩa.",
+      "muc_phong_cach_toi_da": "cach_tan_nhe",
+      "canh_bao": [
+        "W5",
+        "W6"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "tim_hue",
+          "xanh_lam",
+          "trang_nga",
+          "hong_sen"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": "Không gợi ý màu vàng kèm họa tiết rồng (W5)"
+      }
+    },
+    {
+      "id": "mien_tay",
+      "ten": "Miền Tây: chợ nổi, đờn ca tài tử, du lịch sông nước",
+      "thoi_diem": "Quanh năm",
+      "trang_phuc_nu": [
+        "ao_ba_ba"
+      ],
+      "trang_phuc_nam": [
+        "ao_ba_ba"
+      ],
+      "nhu_cau": [
+        "Thoáng mát cho khí hậu nóng ẩm",
+        "chống nắng (nón lá, khăn rằn)",
+        "dễ di chuyển trên ghe"
+      ],
+      "luu_y_van_hoa": "Áo bà ba gắn với đời sống lao động, dân dã. Khi remix nên giữ tinh thần giản dị.",
+      "muc_phong_cach_toi_da": "remix_gen_z",
+      "canh_bao": [
+        "W7"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "den",
+          "nau",
+          "xanh_la_ma",
+          "vang_chanh",
+          "hong_phan"
+        ],
+        "nguon": [
+          "S24"
+        ],
+        "trang_thai": "Đã có nguồn",
+        "ghi_chu": "Đen, nâu: bản lao động; tươi sáng, pastel: bản hiện đại"
+      }
+    },
+    {
+      "id": "dam_cuoi",
+      "ten": "Đám cưới, ăn hỏi (bê tráp, phù dâu, khách mời)",
+      "thoi_diem": "Theo mùa cưới",
+      "trang_phuc_nu": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than",
+        "ao_tac"
+      ],
+      "nhu_cau": [
+        "Đồng bộ màu cả đội bê tráp",
+        "không lấn át cô dâu chú rể",
+        "hợp phong tục gia đình"
+      ],
+      "luu_y_van_hoa": "Khách mời tránh trùng màu hoặc kiểu với cô dâu. Tránh màu tang (toàn trắng, đen).",
+      "muc_phong_cach_toi_da": "cach_tan_nhe",
+      "canh_bao": [
+        "W3",
+        "W4"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "do_son",
+          "hong_dao",
+          "vang_nghe",
+          "xanh_ngoc"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": "Tránh toàn trắng hoặc toàn đen (W3)"
+      }
+    },
+    {
+      "id": "dinh_chua",
+      "ten": "Lễ ở đình, chùa, giỗ Tổ",
+      "thoi_diem": "Theo lịch lễ",
+      "trang_phuc_nu": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than",
+        "ao_tac"
+      ],
+      "nhu_cau": [
+        "Trang nghiêm, kín đáo, phù hợp nghi lễ"
+      ],
+      "luu_y_van_hoa": "Không mặc kiểu cách tân hở hoặc xuyên thấu, không dùng yếm thay áo. Hạn chế màu quá sặc sỡ.",
+      "muc_phong_cach_toi_da": "truyen_thong",
+      "canh_bao": [
+        "W1",
+        "W2"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "be",
+          "nau",
+          "xanh_reu",
+          "xanh_lam"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": "Màu trang nhã"
+      }
+    },
+    {
+      "id": "ngay_hoi_truong",
+      "ten": "Ngày hội văn hóa ở trường, thuyết trình",
+      "thoi_diem": "Theo lịch trường",
+      "trang_phuc_nu": [
+        "ao_giao_linh",
+        "ao_ngu_than",
+        "ao_tu_than",
+        "ao_nhat_binh"
+      ],
+      "trang_phuc_nam": [
+        "ao_giao_linh",
+        "ao_ngu_than",
+        "ao_tac"
+      ],
+      "nhu_cau": [
+        "Thông tin chính xác để thuyết trình",
+        "phân biệt các loại áo",
+        "gợi ý trang phục cho cả nhóm"
+      ],
+      "luu_y_van_hoa": "Áo giao lĩnh và nhật bình dễ bị nhầm với Hán phục hoặc Hanbok, cần hình mẫu và nguồn rõ ràng.",
+      "muc_phong_cach_toi_da": "truyen_thong",
+      "canh_bao": [
+        "W6"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "do_son",
+          "xanh_lam",
+          "nau_non",
+          "be"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": ""
+      }
+    },
+    {
+      "id": "dao_pho",
+      "ten": "Dạo phố, chụp ảnh hằng ngày (phố cổ Hà Nội, Hội An…)",
+      "thoi_diem": "Quanh năm",
+      "trang_phuc_nu": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than",
+        "ao_ba_ba"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than",
+        "ao_ba_ba"
+      ],
+      "nhu_cau": [
+        "Phối kiểu Gen Z với jeans, sneaker, túi tote",
+        "thoải mái và không \"lố\""
+      ],
+      "luu_y_van_hoa": "Bối cảnh phù hợp nhất cho Remix Gen Z, nhưng vẫn giữ ít nhất một đặc trưng nhận diện (dáng áo, tà, cổ áo).",
+      "muc_phong_cach_toi_da": "remix_gen_z",
+      "canh_bao": [
+        "W7"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "hong_phan",
+          "xanh_pastel",
+          "kem",
+          "denim",
+          "den"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": ""
+      }
+    },
+    {
+      "id": "quoc_te",
+      "ten": "Giao lưu quốc tế, du học, đại diện Việt Nam",
+      "thoi_diem": "Theo sự kiện",
+      "trang_phuc_nu": [
+        "ao_dai_hien_dai",
+        "ao_ngu_than"
+      ],
+      "trang_phuc_nam": [
+        "ao_ngu_than",
+        "ao_tac"
+      ],
+      "nhu_cau": [
+        "Trang trọng, dễ mặc và di chuyển",
+        "có lời giới thiệu ngắn bằng tiếng Anh"
+      ],
+      "luu_y_van_hoa": "Ưu tiên bản truyền thống hoặc cách tân nhẹ vì người mặc đang đại diện cho văn hóa.",
+      "muc_phong_cach_toi_da": "cach_tan_nhe",
+      "canh_bao": [
+        "W2"
+      ],
+      "bang_mau_goi_y": {
+        "mau": [
+          "do_son",
+          "trang_nga",
+          "xanh_navy",
+          "vang_nghe"
+        ],
+        "nguon": [],
+        "trang_thai": "Gợi ý thẩm mỹ",
+        "ghi_chu": ""
+      }
+    }
+  ],
+  "quy_tac_canh_bao": [
+    {
+      "id": "W1",
+      "dieu_kien": "Yếm dùng thay áo (yếm remix) + bối cảnh đình, chùa hoặc lễ hội làng",
+      "thong_diep": "Yếm vốn là áo lót mặc bên trong áo tứ thân. Mặc yếm thay áo ở không gian lễ hội, đình chùa dễ bị xem là không phù hợp.",
+      "nguon": [
+        "S12"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn"
+    },
+    {
+      "id": "W2",
+      "dieu_kien": "Người dùng chọn mức phong cách cao hơn mức tối đa của bối cảnh",
+      "thong_diep": "Bối cảnh này nên giữ mức {muc_toi_da}. Bạn vẫn muốn tiếp tục phối kiểu này?",
+      "nguon": [],
+      "trang_thai_kiem_chung": "Quy tắc thiết kế của app"
+    },
+    {
+      "id": "W3",
+      "dieu_kien": "Bộ phối toàn trắng hoặc toàn đen + Tết hoặc đám cưới",
+      "thong_diep": "Màu trắng hoặc đen toàn bộ thường gắn với tang lễ, nên tránh khi chúc Tết hoặc dự cưới.",
+      "nguon": [],
+      "trang_thai_kiem_chung": "Giải thích phổ biến"
+    },
+    {
+      "id": "W4",
+      "dieu_kien": "Khách mời đám cưới chọn màu hoặc kiểu trùng với cô dâu",
+      "thong_diep": "Nên tránh trùng màu hoặc kiểu với cô dâu để không lấn át nhân vật chính.",
+      "nguon": [],
+      "trang_thai_kiem_chung": "Giải thích phổ biến"
+    },
+    {
+      "id": "W5",
+      "dieu_kien": "Chọn áo nhật bình",
+      "thong_diep": "Nhật bình là trang phục cung đình của hậu phi triều Nguyễn, màu sắc và họa tiết theo phẩm vị. Bạn đang mặc với tinh thần tái hiện, không phải trang phục thường ngày.",
+      "nguon": [
+        "S13"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn"
+    },
+    {
+      "id": "W6",
+      "dieu_kien": "Chọn áo giao lĩnh hoặc nhật bình",
+      "thong_diep": "Kiểu áo này dễ bị nhầm với Hán phục hoặc Hanbok. Xem hình mẫu có nguồn trong thẻ văn hóa trước khi chọn đồ.",
+      "nguon": [
+        "S25",
+        "S13"
+      ],
+      "trang_thai_kiem_chung": "Đã có nguồn"
+    },
+    {
+      "id": "W7",
+      "dieu_kien": "Remix Gen Z làm mất cả dáng áo, tà áo và cổ áo",
+      "thong_diep": "Hãy giữ ít nhất một đặc trưng nhận diện của Việt phục để bộ phối vẫn là Việt phục.",
+      "nguon": [],
+      "trang_thai_kiem_chung": "Quy tắc thiết kế của app"
+    }
+  ],
+  "quy_tac_phoi": {
+    "muc_hieu_luc": "Mức phong cách cho phép = mức thấp hơn giữa muc_phong_cach_toi_da của bối cảnh và của trang phục. Mức cao hơn vẫn chọn được nhưng kích hoạt W2.",
+    "so_mon_remix_lon_toi_da": 2,
+    "mon_remix_lon": [
+      "blazer_mong",
+      "quan_jeans",
+      "sneaker_trang",
+      "boots_co_thap"
+    ],
+    "ghi_chu_W7": "W7 kích hoạt khi chọn quá 2 món remix lớn cùng lúc, vì dễ che hết đặc trưng nhận diện.",
+    "W3_nhom_mau": "W3 kích hoạt khi mọi màu được chọn đều thuộc nhóm 'trang' hoặc đều thuộc nhóm 'den', ở bối cảnh tet hoặc dam_cuoi.",
+    "vi_tri_chon_mot": [
+      "chan",
+      "khoac",
+      "mat",
+      "quan"
+    ]
+  },
+  "quy_tac_hai_hoa": {
+    "mo_ta": "App tự tính, không gọi AI. Đổi mã hex của màu áo và màu phụ sang HSL rồi so sánh. Độ đậm màu = chênh lệch giữa kênh RGB lớn nhất và nhỏ nhất (0–100%).",
+    "phan_loai": [
+      {
+        "id": "trung_tinh",
+        "ten": "Có màu trung tính",
+        "dieu_kien": "Một trong hai màu có độ đậm màu dưới 22% (trắng, đen, be, kem…). Xét điều kiện này trước",
+        "diem": 88
+      },
+      {
+        "id": "tuong_dong",
+        "ten": "Tương đồng",
+        "dieu_kien": "Chênh lệch sắc độ (hue) dưới 30°",
+        "diem": 90
+      },
+      {
+        "id": "bo_tro",
+        "ten": "Bổ trợ",
+        "dieu_kien": "Chênh lệch sắc độ từ 150° đến 210°",
+        "diem": 85
+      },
+      {
+        "id": "tuong_phan",
+        "ten": "Tương phản",
+        "dieu_kien": "Các trường hợp còn lại",
+        "diem": 65
+      }
+    ],
+    "tru_diem": [
+      {
+        "dieu_kien": "Loại Tương phản và cả hai màu có độ đậm màu trên 55%",
+        "tru": 10,
+        "nhac": "Hai màu đều rực và tương phản, thử đổi một màu sang tông nhạt hơn."
+      },
+      {
+        "dieu_kien": "Mỗi màu không nằm trong bảng màu gợi ý của bối cảnh",
+        "tru": 5,
+        "nhac": "Có màu ngoài bảng gợi ý của dịp này, bạn vẫn có thể dùng."
+      }
+    ],
+    "xep_loai": [
+      {
+        "tu": 85,
+        "ten": "Rất hài hòa"
+      },
+      {
+        "tu": 70,
+        "ten": "Hài hòa"
+      },
+      {
+        "tu": 0,
+        "ten": "Nên cân nhắc"
+      }
+    ],
+    "trang_thai": "Quy tắc thiết kế của app"
+  },
+  "cau_hinh_ai": {
+    "khi_nao_goi": "Chỉ khi người dùng bấm 'Nhờ AI tư vấn'. Mockup, thẻ gợi ý, thẻ văn hóa, điểm hài hòa và cảnh báo đều chạy không cần AI.",
+    "dau_vao": "Gửi cho Gemini đúng một gói JSON: boi_canh, trang_phuc (kèm mo_ta, dac_trung, nguon), phu_kien đã chọn, mau đã chọn, ket_qua_hai_hoa (điểm và phân loại do app tính), canh_bao đang bật. Không gửi cả bộ dữ liệu.",
+    "system_instruction": "Bạn là trợ lý phối Việt phục cho học sinh, sinh viên. Chỉ dùng thông tin trong gói JSON được gửi kèm. Không tự thêm năm tháng, nhân vật, ý nghĩa lịch sử hay nguồn gốc không có trong dữ liệu; nếu người dùng hỏi điều dữ liệu không có, trả lời rằng app chưa có thông tin đã kiểm chứng về điểm đó. Không thay đổi điểm hài hòa hay cảnh báo do app tính, chỉ giải thích chúng. Với mục có trang_thai_kiem_chung khác 'Đã có nguồn', dùng cách nói thận trọng như 'thường được cho là'. Viết tiếng Việt, giọng thân thiện, ngắn gọn.",
+    "response_schema": {
+      "type": "object",
+      "properties": {
+        "nhan_xet": {
+          "type": "string",
+          "description": "2–3 câu nhận xét tổng thể bộ phối"
+        },
+        "giai_thich_hai_hoa": {
+          "type": "string",
+          "description": "Giải thích điểm hài hòa app đã tính"
+        },
+        "goi_y_dieu_chinh": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 3
+        },
+        "meo_tao_dang": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 3
+        }
+      },
+      "required": [
+        "nhan_xet",
+        "giai_thich_hai_hoa",
+        "goi_y_dieu_chinh",
+        "meo_tao_dang"
+      ]
+    },
+    "du_phong": "Nếu gọi API lỗi hoặc quá 8 giây, hiển thị phan_hoi_mau tương ứng (nếu có) hoặc thông báo 'Chưa kết nối được AI, các gợi ý bên trên vẫn đầy đủ'.",
+    "phan_hoi_mau": [
+      {
+        "kich_ban": {
+          "boi_canh": "tot_nghiep",
+          "trang_phuc": "ao_dai_hien_dai",
+          "muc": "cach_tan_nhe",
+          "mau": [
+            "trang_nga",
+            "xanh_pastel"
+          ],
+          "phu_kien": [
+            "khan_van",
+            "giay_loafer"
+          ]
+        },
+        "ghi_chu": "Phản hồi soạn sẵn cho kịch bản demo (nhân vật Linh chụp kỷ yếu). Nên chạy thử Gemini một lần rồi thay bằng câu trả lời thật đã duyệt.",
+        "phan_hoi": {
+          "nhan_xet": "Bộ áo dài trắng ngà phối xanh pastel nhẹ nhàng, hợp không khí ngày chụp kỷ yếu và dễ đồng bộ với cả lớp. Khăn vấn giữ nét truyền thống, giày loafer giúp bạn đi lại thoải mái cả ngày.",
+          "giai_thich_hai_hoa": "Trắng ngà là màu trung tính nên kết hợp được với hầu hết các màu; xanh pastel làm điểm nhấn mà không bị rực.",
+          "goi_y_dieu_chinh": [
+            "Nếu cả lớp mặc trắng, bạn có thể chọn khăn vấn xanh pastel để nổi bật hơn một chút."
+          ],
+          "meo_tao_dang": [
+            "Chụp nghiêng để thấy rõ hai tà áo.",
+            "Cầm nhẹ một vạt áo khi bước để tạo chuyển động."
+          ]
+        }
+      }
+    ]
+  },
+  "nguon": [
+    {
+      "id": "S1",
+      "ten": "Phan Thanh Hải – Từ cải cách trang phục dưới thời Võ vương Nguyễn Phúc Khoát và vua Minh Mạng… (Nghiên cứu và Phát triển, 2021)",
+      "loai": "Học thuật",
+      "url": "https://vjol.info.vn/ncpt-hue/article/view/54472",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S2",
+      "ten": "Tatler Asia – Áo dài qua các thời kỳ",
+      "loai": "Báo chí",
+      "url": "https://www.tatlerasia.com/style/fashion/legacy-50-vietnam-ao-dai-over-time-vn",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S3",
+      "ten": "Báo Lào Cai – Cổ phục Việt xuất ngoại",
+      "loai": "Báo chí",
+      "url": "https://baolaocai.vn/co-phuc-viet-xuat-ngoai-post377664.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S4",
+      "ten": "Báo Pháp Luật – Sự trở lại ngoạn mục của áo dài ngũ thân",
+      "loai": "Báo chí",
+      "url": "https://baophapluat.vn/su-tro-lai-ngoan-muc-cua-ao-dai-ngu-than-post384250.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S5",
+      "ten": "ĐH KHXH&NV TP.HCM – Tài liệu về lịch sử áo dài",
+      "loai": "Học thuật",
+      "url": "https://hcmussh.edu.vn/static/document/13110.pdf",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S6",
+      "ten": "Báo Pháp Luật – Áo dài, 'tấm hộ chiếu' văn hóa Việt",
+      "loai": "Báo chí",
+      "url": "https://baophapluat.vn/ao-dai-tam-ho-chieu-van-hoa-viet.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S7",
+      "ten": "Tạp chí Công Thương – Trăm năm biến tấu áo dài Việt Nam",
+      "loai": "Báo chí",
+      "url": "https://tapchicongthuong.vn/tram-nam-bien-tau-ao-dai-viet-nam-44643.htm",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S8",
+      "ten": "Hoatieu – Thuyết minh về chiếc áo dài",
+      "loai": "Phổ thông",
+      "url": "https://hoatieu.vn/thuyet-minh-ve-chiec-ao-dai-viet-nam-204591",
+      "ghi_chu": "Đã thay bằng S26–S28. Giữ lại làm ví dụ thông tin sai lệch (xem tab Phát hiện)"
+    },
+    {
+      "id": "S9",
+      "ten": "VietNamNet – Tôn vinh văn hóa Việt qua cổ phục Nhật Bình, áo Tấc",
+      "loai": "Báo chí",
+      "url": "https://vietnamnet.vn/miss-mister-vltk-15-ton-vinh-van-hoa-viet-qua-co-phuc-nhat-binh-ao-tac-ig40896.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S10",
+      "ten": "Wikipedia – Áo tứ thân",
+      "loai": "Phổ thông",
+      "url": "https://en.wikipedia.org/wiki/%C3%81o_t%E1%BB%A9_th%C3%A2n",
+      "ghi_chu": "Đã thay bằng S22"
+    },
+    {
+      "id": "S11",
+      "ten": "VOV5 – Traditional clothes of Viet women (phỏng vấn Bảo tàng Phụ nữ Việt Nam)",
+      "loai": "Báo chí / Bảo tàng",
+      "url": "https://vov5.vov.gov.vn/colorful-vietnam-vietnams-54-ethnic-groups/traditional-clothes-of-viet-women-1122288.vov5",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S12",
+      "ten": "Báo Văn Hóa – Vẻ đẹp của yếm đào",
+      "loai": "Báo chí",
+      "url": "https://baovanhoa.vn/van-hoa-va-thoi-luan/ve-dep-cua-yem-dao-84215.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S13",
+      "ten": "Tạp chí Văn hóa Nghệ thuật – Áo Nhật Bình của Đoan Huy Hoàng thái hậu",
+      "loai": "Học thuật",
+      "url": "https://vjol.info.vn/tcvanhoanghethuat/article/download/138715/113380/",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S14",
+      "ten": "Wikipedia – Áo giao lĩnh",
+      "loai": "Phổ thông",
+      "url": "https://en.wikipedia.org/wiki/%C3%81o_giao_l%C4%A9nh",
+      "ghi_chu": "Đã thay bằng S25, S16"
+    },
+    {
+      "id": "S15",
+      "ten": "Wikipedia – Áo dài",
+      "loai": "Phổ thông",
+      "url": "https://www.wikipedia.org/wiki/Ao_Dai",
+      "ghi_chu": "Chỉ còn hỗ trợ một chi tiết chưa đưa vào app"
+    },
+    {
+      "id": "S16",
+      "ten": "Báo Pháp Luật – 'Việt Cẩm Y Văn': Bản sắc Việt trong cổ phục thời Lê Trung Hưng (nhóm Đại Việt Phong Hoa)",
+      "loai": "Báo chí / Nhóm nghiên cứu",
+      "url": "https://baophapluat.vn/viet-cam-y-van-ban-sac-viet-trong-co-phuc-thoi-le-trung-hung.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S17",
+      "ten": "Vietnam Tourism – Vietnam national costume male and female",
+      "loai": "Phổ thông",
+      "url": "https://www.vietnamtourism.com/en/vietnam-national-costume-male-and-female-a-complete-traveler-s-guide",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S18",
+      "ten": "VNA – Fashion show honors southern women's traditional attire",
+      "loai": "Báo chí",
+      "url": "https://vietnam.vnanet.vn/english/fashion-show-honors-southern-womens-traditional-attire/417727.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S19",
+      "ten": "VinWonders – Quan họ Bắc Ninh",
+      "loai": "Phổ thông",
+      "url": "https://vinwonders.com/vi/wonderpedia/news/quan-ho-bac-ninh/",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S20",
+      "ten": "Lời giải hay – Trang phục quan họ (áo mớ ba mớ bảy)",
+      "loai": "Phổ thông",
+      "url": "https://loigiaihay.com/qua-van-ban-ca-hue-hay-neu-mot-hoat-dong-ca-nhac-truyen-thong-cua-que-huong-em-a108985.html",
+      "ghi_chu": "Nên tìm thêm nguồn từ Nhà hát Dân ca Quan họ Bắc Ninh"
+    },
+    {
+      "id": "S21",
+      "ten": "Diễn đàn Doanh nghiệp – Trình diễn áo dài cổ phục Việt",
+      "loai": "Báo chí",
+      "url": "https://diendandoanhnghiep.vn/ngay-hoi-di-san-van-hoa-viet-nam-trinh-dien-ao-dai-co-phuc-viet-234829.html",
+      "ghi_chu": ""
+    },
+    {
+      "id": "S22",
+      "ten": "Trịnh Bách – Nguồn gốc áo dài Việt Nam (Nghiên cứu và Phát triển, số 7(161), 2020)",
+      "loai": "Học thuật",
+      "url": "https://vjol.info.vn/ncpt-hue/article/download/54470/45091/",
+      "ghi_chu": "Mới"
+    },
+    {
+      "id": "S23",
+      "ten": "Hoàng Diễn Thanh – Giá trị thẩm mỹ và bản sắc văn hóa của áo Ngũ Thân từ góc nhìn thời trang hiện đại (Tạp chí Nghệ thuật, số 60/2026)",
+      "loai": "Học thuật",
+      "url": "https://vjol.info.vn/tcgiaoducnghethuat/vi/article/download/255724/229033/404990",
+      "ghi_chu": "Mới"
+    },
+    {
+      "id": "S24",
+      "ten": "Châu Thúy An – Áo bà ba xưa và nay: Vẻ đẹp trường tồn của văn hoá trang phục người Việt Tây Nam Bộ (Tạp chí Văn hóa, số 55, 2025)",
+      "loai": "Học thuật",
+      "url": "https://vjol.info.vn/tcgiaoducnghethuat/article/download/137388/112291/",
+      "ghi_chu": "Mới"
+    },
+    {
+      "id": "S25",
+      "ten": "Weaving a Realm (Vietnam Centre / Comicola, 2019) – qua bài điểm sách trên EXARC",
+      "loai": "Sách chuyên khảo",
+      "url": "https://exarc.net/ark:/88735/10569",
+      "ghi_chu": "Mới. Nên đọc trực tiếp sách nếu có thể"
+    },
+    {
+      "id": "S26",
+      "ten": "Saigoneer – A Brief History of the Áo Dài",
+      "loai": "Báo chí",
+      "url": "https://www.saigoneer.com/saigon-culture/2633-a-brief-history-of-the-ao-dai",
+      "ghi_chu": "Mới"
+    },
+    {
+      "id": "S27",
+      "ten": "VietNamNet – Evolution of the ao dai",
+      "loai": "Báo chí",
+      "url": "https://vietnamnet.vn/en/evolution-of-the-ao-dai-E89288.html",
+      "ghi_chu": "Mới"
+    },
+    {
+      "id": "S28",
+      "ten": "Zhang, Ngo & Wang – Optimizing Sleeves Pattern for Vietnamese Airlines Stewardess Uniform – Ao Dai (ICCSE 2015, Atlantis Press)",
+      "loai": "Học thuật",
+      "url": "https://atlantis-press.com/proceedings/iccse-15/25887",
+      "ghi_chu": "Mới"
+    },
+    {
+      "id": "S29",
+      "ten": "Pháp Luật TP.HCM – Chật vật giữ hồn lãnh Mỹ A",
+      "loai": "Báo chí",
+      "url": "https://plo.vn/chat-vat-giu-hon-lanh-my-a-post446555.html",
+      "ghi_chu": "Mới"
+    },
+    {
+      "id": "S30",
+      "ten": "Mekong Delta Tours – Ao ba ba, casual wear in South Vietnam",
+      "loai": "Phổ thông",
+      "url": "https://www.mekong-delta-tours.com/travel-guide/ao-ba-ba-casual-wear-in-south-vietnam.html",
+      "ghi_chu": "Mới"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+﻿Mã,Điều kiện kích hoạt,Thông điệp hiển thị,Mã nguồn,Trạng thái
+W1,"Yếm dùng thay áo (yếm remix) + bối cảnh đình, chùa hoặc lễ hội làng","Yếm vốn là áo lót mặc bên trong áo tứ thân. Mặc yếm thay áo ở không gian lễ hội, đình chùa dễ bị xem là không phù hợp.",S12,Đã có nguồn
+W2,Người dùng chọn mức phong cách cao hơn mức tối đa của bối cảnh,Bối cảnh này nên giữ mức {muc_toi_da}. Bạn vẫn muốn tiếp tục phối kiểu này?,,Quy tắc thiết kế của app
+W3,Bộ phối toàn trắng hoặc toàn đen + Tết hoặc đám cưới,"Màu trắng hoặc đen toàn bộ thường gắn với tang lễ, nên tránh khi chúc Tết hoặc dự cưới.",,Giải thích phổ biến
+W4,Khách mời đám cưới chọn màu hoặc kiểu trùng với cô dâu,Nên tránh trùng màu hoặc kiểu với cô dâu để không lấn át nhân vật chính.,,Giải thích phổ biến
+W5,Chọn áo nhật bình,"Nhật bình là trang phục cung đình của hậu phi triều Nguyễn, màu sắc và họa tiết theo phẩm vị. Bạn đang mặc với tinh thần tái hiện, không phải trang phục thường ngày.",S13,Đã có nguồn
+W6,Chọn áo giao lĩnh hoặc nhật bình,Kiểu áo này dễ bị nhầm với Hán phục hoặc Hanbok. Xem hình mẫu có nguồn trong thẻ văn hóa trước khi chọn đồ.,"S25, S13",Đã có nguồn
+W7,"Remix Gen Z làm mất cả dáng áo, tà áo và cổ áo",Hãy giữ ít nhất một đặc trưng nhận diện của Việt phục để bộ phối vẫn là Việt phục.,,Quy tắc thiết kế của app
