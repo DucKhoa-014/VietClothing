@@ -1,4 +1,4 @@
-﻿Mã,Điều kiện kích hoạt,Thông điệp hiển thị,Mã nguồn,Trạng thái
+Mã,Điều kiện kích hoạt,Thông điệp hiển thị,Mã nguồn,Trạng thái
 W1,"Yếm dùng thay áo (yếm remix) + bối cảnh đình, chùa hoặc lễ hội làng","Yếm vốn là áo lót mặc bên trong áo tứ thân. Mặc yếm thay áo ở không gian lễ hội, đình chùa dễ bị xem là không phù hợp.",S12,Đã có nguồn
 W2,Người dùng chọn mức phong cách cao hơn mức tối đa của bối cảnh,Bối cảnh này nên giữ mức {muc_toi_da}. Bạn vẫn muốn tiếp tục phối kiểu này?,,Quy tắc thiết kế của app
 W3,Bộ phối toàn trắng hoặc toàn đen + Tết hoặc đám cưới,"Màu trắng hoặc đen toàn bộ thường gắn với tang lễ, nên tránh khi chúc Tết hoặc dự cưới.",,Giải thích phổ biến

@@ -1,0 +1,8 @@
+{
+  "name": "Việt phục Remix",
+  "description": "Website giới thiệu và phòng phối đồ trang phục truyền thống Việt Nam (áo ngũ thân, áo tấc, áo tứ thân, áo dài, áo nhật bình, áo giao lĩnh, áo bà ba) với giao diện hiện đại, tôn trọng văn hóa.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

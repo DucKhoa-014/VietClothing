@@ -1,0 +1,241 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-nen: #F6F1E7;
+  --color-nen-phu: #F2E6CF;
+  --color-chu: #262626;
+  --color-chu-phu: #6A4A34;
+  --color-son: #B8322A;
+  --color-nghe: #E0A526;
+  --color-tim-hue: #5E3F73;
+  --color-cham: #23395B;
+  --color-vien: rgb(106 74 52 / 0.14);
+  --ease-lua: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.dark {
+  --color-nen: #1C1A17;
+  --color-nen-phu: #262220;
+  --color-chu: #F2E6CF;
+  --color-chu-phu: #D8C3A5;
+  --color-son: #E0483E;
+  --color-nghe: #F2BD42;
+  --color-tim-hue: #906BAE;
+  --color-cham: #142236;
+  --color-vien: rgb(242 230 207 / 0.12);
+}
+
+:root {
+  --nav-h: 64px;
+  --scroll-y: 0px;
+  --scroll-progress: 0;
+  color-scheme: light;
+}
+
+:root.dark, html.dark, .dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--color-nen);
+  color: var(--color-chu);
+  transition: background-color 0.4s ease, color 0.4s ease;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif-vi {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* SlideUp for hero stagger */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* FadeIn for mobile menu & transitions */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out both;
+}
+
+/* Light shimmer on H1 page titles only */
+@keyframes titleShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.title-shimmer {
+  background: linear-gradient(
+    115deg,
+    currentColor 0%,
+    currentColor 40%,
+    #FFF2CF 50%,
+    currentColor 60%,
+    currentColor 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: titleShimmer 1.4s ease-out forwards;
+}
+
+/* Static Do paper background & subtle vignette */
+.bg-giay-do {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: 
+    radial-gradient(circle at 50% 50%, transparent 65%, rgba(106, 74, 52, 0.04) 100%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.03 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+}
+
+.dark .bg-giay-do {
+  background-image: 
+    radial-gradient(circle at 50% 50%, transparent 65%, rgba(0, 0, 0, 0.4) 100%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 300 300' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Custom cursor modifier states */
+.cursor-ring--link {
+  background-color: rgba(224, 165, 38, 0.12) !important;
+  border-color: rgba(224, 165, 38, 0.9) !important;
+}
+
+.cursor-ring--view, .cursor-ring--zoom {
+  background-color: rgba(246, 241, 231, 0.95) !important;
+  border-color: rgba(224, 165, 38, 0.9) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dark .cursor-ring--view, .dark .cursor-ring--zoom {
+  background-color: rgba(28, 26, 23, 0.95) !important;
+  border-color: rgba(242, 189, 66, 0.9) !important;
+}
+
+/* 3D Tilt Card Glare overlay */
+.card-glare {
+  background: radial-gradient(
+    circle at var(--glare-x, 50%) var(--glare-y, 50%),
+    rgba(255, 255, 255, 0.18),
+    transparent 65%
+  );
+  opacity: var(--glare-opacity, 0);
+  pointer-events: none;
+  transition: opacity 0.2s ease-out;
+}
+
+/* Navigation underline */
+.nav-link-underline {
+  position: relative;
+}
+.nav-link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #E0A526;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.nav-link-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Tab sweep across screen */
+@keyframes tabSweep {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.tab-light-sweep {
+  animation: tabSweep 0.55s ease-out forwards;
+}
+
+/* Modal curtain enter animation */
+@keyframes curtainEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(16px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.curtain-enter {
+  animation: curtainEnter 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .title-shimmer {
+    background: none !important;
+    animation: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(184, 50, 42, 0.22);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(184, 50, 42, 0.45);
+}
